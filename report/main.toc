@@ -1,0 +1,27 @@
+\acswitchoff 
+\contentsline {section}{\numberline {1}Introduction}{4}{}%
+\contentsline {section}{\numberline {2}System description}{4}{}%
+\contentsline {section}{\numberline {3}Hardware design and implementation}{5}{}%
+\contentsline {subsection}{\numberline {3.1}Hardware block diagram and description of interaction}{5}{}%
+\contentsline {subsection}{\numberline {3.2}Square wave generator}{5}{}%
+\contentsline {subsection}{\numberline {3.3}Triangle wave generator}{5}{}%
+\contentsline {subsection}{\numberline {3.4}Sine wave generator}{5}{}%
+\contentsline {subsection}{\numberline {3.5}Summing and signal selection}{5}{}%
+\contentsline {subsection}{\numberline {3.6}Level adjustment}{5}{}%
+\contentsline {subsection}{\numberline {3.7}Amplification}{5}{}%
+\contentsline {subsection}{\numberline {3.8}Voltage regulation, virtual ground and output drive capability}{5}{}%
+\contentsline {subsection}{\numberline {3.9}Other}{5}{}%
+\contentsline {subsection}{\numberline {3.10}Construction}{5}{}%
+\contentsline {section}{\numberline {4}Software design and implementation}{6}{}%
+\contentsline {subsection}{\numberline {4.1}Programming language}{6}{}%
+\contentsline {subsection}{\numberline {4.2}Software block diagram and description of interaction}{6}{}%
+\contentsline {subsection}{\numberline {4.3}Use of AI tools}{6}{}%
+\contentsline {subsection}{\numberline {4.4}Data read-in and calibration}{6}{}%
+\contentsline {subsection}{\numberline {4.5}Software functions}{6}{}%
+\contentsline {section}{\numberline {5}Measurements and Results}{7}{}%
+\contentsline {subsection}{\numberline {5.1}Square, triangle and sine waves}{7}{}%
+\contentsline {subsection}{\numberline {5.2}Duty cycle and skew}{7}{}%
+\contentsline {subsection}{\numberline {5.3}Sine wave total harmonic distortion}{7}{}%
+\contentsline {subsection}{\numberline {5.4}Level adjust}{7}{}%
+\contentsline {subsection}{\numberline {5.5}Other}{7}{}%
+\contentsline {section}{\numberline {6}Conclusions}{8}{}%

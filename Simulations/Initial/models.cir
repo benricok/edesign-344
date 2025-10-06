@@ -1,0 +1,166 @@
+* ********************************************
+* -------------- MODELS ----------------------
+
+* 4.7 V Zener diode
+.model D47 D ( BV=4.7 IBV=17m ) 
+
+* 1N4148 diode
+.model D1N4148 D (IS=35p RS=64m N=1.24 TT=5n BV=75 CJO=4p M=0.285 VJ=0.6)
+
+* 2N2905A PNP-transistor (TO5)
+.model t2N2905A pnp Is=650.6E-18 Xti=3 Eg=1.11 Vaf=115.7 Bf=231.7 Ne=1.829
++          Ise=54.81f Ikf=1.079 Xtb=1.5 Br=3.563 Nc=2 Isc=0 Ikr=0 Rc=.715
++          Cjc=14.76p Mjc=.5383 Vjc=.75 Fc=.5 Cje=19.82p Mje=.3357 Vje=.75
++          Tr=111.3n Tf=603.7p Itf=.65 Vtf=5 Xtf=1.7 Rb=10
+
+* 2N2219A NPN-transistor (TO5)
+.model t2N2219A npn Is=14.34f Xti=3 Eg=1.11 Vaf=74.03 Bf=255.9 Ne=1.307
++          Ise=14.34f Ikf=.2847 Xtb=1.5 Br=6.092 Nc=2 Isc=0 Ikr=0 Rc=1
++          Cjc=7.306p Mjc=.3416 Vjc=.75 Fc=.5 Cje=22.01p Mje=.377 Vje=.75
++          Tr=46.91n Tf=411.1p Itf=.6 Vtf=1.7 Xtf=3 Rb=10
+
+* TIP41C NPN (TO220)
+.model TIP41C npn Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++          Ikf=3.296 Nc=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++          Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++          Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10 Rb=.1
+
+* TIP42C PNP (TO220)
+.model TIP42C pnp Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++          Ne=1.481 Ikf=1.642 Nc=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++          Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++          Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++          Xtf=5.982 Vtf=10 Rb=.1
+
+* TIP35C NPN (TO220)
+.model TIP35C npn Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++          Ikf=3.296 Nc=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++          Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++          Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10 Rb=.1
+
+* TIP36C PNP (TO220)
+.model TIP36C pnp Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++          Ne=1.481 Ikf=1.642 Nc=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++          Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++          Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++          Xtf=5.982 Vtf=10 Rb=.1
+
+.model T2n3906 pnp Is=1.41f Xti=3 Eg=1.11 Vaf=18.7 Bf=180.7 Ne=1.5 Ise=0 Ikf=80m Xtb=1.5 Br=4.977 Nc=2 Isc=0 Ikr=0
++ Rc=2.5 Cjc=9.728p Mjc=.5776 Vjc=.75 Fc=.5 Cje=8.063p Mje=.3677 Vje=.75 Tr=33.42n Tf=179.3p Itf=.4
++ Vtf=4 Xtf=6 Rb=10
+
+.model T2n3904 npn Is=6.734f Xti=3 Eg=1.11 Vaf=74.03 Bf=416.4 Ne=1.259 Ise=6.734 Ikf=66.78m Xtb=1.5 Br=.7371 Nc=2
++ Isc=0 Ikr=0 Rc=1 Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p Mje=.2593 Vje=.75 Tr=239.5n Tf=301.2p
++ Itf=.4 Vtf=4 Xtf=2 Rb=10
+
+
+.model 2N3904 NPN(IS=1E-14 VAF=100
++  Bf=300 IKF=0.4 XTB=1.5 BR=4
++  CJC=4E-12  CJE=8E-12 RB=20 RC=0.1 RE=0.1
++  TR=250E-9  TF=350E-12 ITF=1 VTF=2 XTF=3)
+
+.model 2N3906 PNP(IS=1E-14 VAF=100
++  BF=200 IKF=0.4 XTB=1.5 BR=4
++  CJC=4.5E-12 CJE=10E-12 RB=20 RC=0.1 RE=0.1
++  TR=250E-9   TF=350E-12 ITF=1 VTF=2 XTF=3)
+* ********************************************
+* --------- OP-AMP MODEL -------------
+* TL082 OPERATIONAL AMPLIFIER "MACROMODEL" SUBCIRCUIT
+* = TL081
+* CREATED USING PARTS RELEASE 4.01 ON 06/16/89 AT 13:08
+* (REV N/A)      SUPPLY VOLTAGE: +/-15V
+* CONNECTIONS:   NON-INVERTING INPUT
+*                | INVERTING INPUT
+*                | | POSITIVE POWER SUPPLY
+*                | | | NEGATIVE POWER SUPPLY
+*                | | | | OUTPUT
+*                | | | | |
+.SUBCKT TL081    1 2 3 4 5
+*
+  C1   11 12 3.498E-12
+  C2    6  7 15.00E-12
+  DC    5 53 DX
+  DE   54  5 DX
+  DLP  90 91 DX
+  DLN  92 90 DX
+  DP    4  3 DX
+  EGND 99  0 POLY(2) (3,0) (4,0) 0 .5 .5
+  FB    7 99 POLY(5) VB VC VE VLP VLN 0 4.715E6 -5E6 5E6 5E6 -5E6
+  GA    6  0 11 12 282.8E-6
+  GCM   0  6 10 99 8.942E-9
+  ISS   3 10 DC 195.0E-6
+  HLIM 90  0 VLIM 1K
+  J1   11  2 10 JX
+  J2   12  1 10 JX
+  R2    6  9 100.0E3
+  RD1   4 11 3.536E3
+  RD2   4 12 3.536E3
+  RO1   8  5 150
+  RO2   7 99 150
+  RP    3  4 2.143E3
+  RSS  10 99 1.026E6
+  VB    9  0 DC 0
+  VC    3 53 DC 2.200
+  VE   54  4 DC 2.200
+  VLIM  7  8 DC 0
+  VLP  91  0 DC 25
+  VLN   0 92 DC 25
+.MODEL DX D(IS=800.0E-18)
+.MODEL JX PJF(IS=15.00E-12 BETA=270.1E-6 VTO=-1)
+.ENDS
+
+* ********************************************
+*TIMER 555
+.SUBCKT NE555  32   30   19   23  33     1      21
+*              TRIG OUT  RES  CV  THRESH DISCH  VCC
+*
+Q4 25 2 3 QP
+Q5 0 6 3 QP
+Q6 6 6 8 QP
+R1 9 21 4.7K
+R2 3 21 830
+R3 8 21 4.7K
+Q7 2 33 5 QN
+Q8 2 5 17 QN
+Q9 6 4 17 QN
+Q10 6 23 4 QN
+Q11 12 20 10 QP
+R4 10 21 1K
+Q12 22 11 12 QP
+Q13 14 13 12 QP
+Q14 0 32 11 QP
+Q15 14 18 13 QP
+R5 14 0 100K
+R6 22 0 100K
+R7 17 0 10K
+Q16 1 15 0 QN
+Q17 15 19 31 QP
+R8 18 23 5K
+R9 18 0 5K
+R10 21 23 5K
+Q18 27 20 21 QP
+Q19 20 20 21 QP
+R11 20 31 5K
+D1 31 24 DA
+Q20 24 25 0 QN
+Q21 25 22 0 QN
+Q22 27 24 0 QN
+R12 25 27 4.7K
+R13 21 29 6.8K
+Q23 21 29 28 QN
+Q24 29 27 16 QN
+Q25 30 26 0 QN
+Q26 21 28 30 QN
+D2 30 29 DA
+R14 16 15 100
+R15 16 26 220
+R16 16 0 4.7K
+R17 28 30 3.9K
+Q3 2 2 9 QP
+.MODEL DA D (RS=40 IS=1.0E-14 CJO=1PF)
+.MODEL QP PNP (BF=20 BR=0.02 RC=4 RB=25 IS=1.0E-14 VA=50 NE=2)
++ CJE=12.4P VJE=1.1 MJE=.5 CJC=4.02P VJC=.3 MJC=.3 TF=229P TR=159N)
+.MODEL QN NPN (IS=5.07F NF=1 BF=100 VAF=161 IKF=30M ISE=3.9P NE=2
++ BR=4 NR=1 VAR=16 IKR=45M RE=1.03 RB=4.12 RC=.412 XTB=1.5
++ CJE=12.4P VJE=1.1 MJE=.5 CJC=4.02P VJC=.3 MJC=.3 TF=229P TR=959P)
+.ENDS

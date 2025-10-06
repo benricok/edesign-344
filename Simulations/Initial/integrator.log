@@ -1,0 +1,13 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\Benrico Krog\OneDrive - Stellenbosch University\Modules\3rd year - E&E\6th semester\E-Design 344\Simulations\Initial\integrator.asc
+Start Time: Mon Jul 28 12:52:21 2025
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = modified trap
+Limiting rise time of source v1 to 0.0001
+Limiting fall time of source v1 to 0.0001
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.097 seconds.
+
