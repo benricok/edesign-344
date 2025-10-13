@@ -1,0 +1,115 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="idblY8q7rbOJNPwowBI8">
+    <mxGraphModel dx="614" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uDtlGR2AWLJxVOBBV3Bc-1" target="uDtlGR2AWLJxVOBBV3Bc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-1" value="Computer audio in" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="290" y="430" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uDtlGR2AWLJxVOBBV3Bc-2" target="uDtlGR2AWLJxVOBBV3Bc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-2" value="&lt;b&gt;ADC&lt;/b&gt;&lt;div&gt;Sample rate: 44100Hz&lt;/div&gt;&lt;div&gt;Buffer size: 1024&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="290" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uDtlGR2AWLJxVOBBV3Bc-4" target="uDtlGR2AWLJxVOBBV3Bc-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="350" />
+              <mxPoint x="710" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uDtlGR2AWLJxVOBBV3Bc-4" target="uDtlGR2AWLJxVOBBV3Bc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uDtlGR2AWLJxVOBBV3Bc-4" target="uDtlGR2AWLJxVOBBV3Bc-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-4" value="Time domain cicular buffer" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-6" value="Time Domain&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Plot&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="790" y="320" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uDtlGR2AWLJxVOBBV3Bc-8" target="uDtlGR2AWLJxVOBBV3Bc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uDtlGR2AWLJxVOBBV3Bc-8" target="uDtlGR2AWLJxVOBBV3Bc-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uDtlGR2AWLJxVOBBV3Bc-8" target="uDtlGR2AWLJxVOBBV3Bc-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="605" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-8" value="Fast Fourier Transform" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="520" y="430" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uDtlGR2AWLJxVOBBV3Bc-10" target="uDtlGR2AWLJxVOBBV3Bc-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-21" value="Display THD" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uDtlGR2AWLJxVOBBV3Bc-20">
+          <mxGeometry x="-0.3529" y="-1" relative="1" as="geometry">
+            <mxPoint x="15" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-10" value="Calculate THD" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="520" y="570" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uDtlGR2AWLJxVOBBV3Bc-11" target="uDtlGR2AWLJxVOBBV3Bc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-23" value="Display Signal Frequency" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uDtlGR2AWLJxVOBBV3Bc-22">
+          <mxGeometry x="0.0467" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-11" value="Determine fundamental frequency" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="790" y="430" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-18" value="Frequency Domain Plot" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="790" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uDtlGR2AWLJxVOBBV3Bc-25" target="uDtlGR2AWLJxVOBBV3Bc-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-25" value="Calc rise and fall times, duty cycle from zero crossings" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uDtlGR2AWLJxVOBBV3Bc-28" target="uDtlGR2AWLJxVOBBV3Bc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-33" value="Display signal type&lt;div&gt;and stats (skew, duty cycle)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uDtlGR2AWLJxVOBBV3Bc-31">
+          <mxGeometry x="0.4904" y="6" relative="1" as="geometry">
+            <mxPoint x="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-28" value="Classify signal =&amp;gt; Square, Triangle, Sawtooth, Sine" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="520" y="150" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDtlGR2AWLJxVOBBV3Bc-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="460" as="sourcePoint" />
+            <mxPoint x="640" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="460" />
+              <mxPoint x="720" y="230" />
+              <mxPoint x="640" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

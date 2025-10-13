@@ -1,2 +1,5 @@
 \acswitchoff 
-\contentsline {figure}{\numberline {1}{\ignorespaces Your figure caption.}}{4}{}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Hardware design overview block diagram}}{5}{figure.caption.7}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Signal selection, gain and offset op-amp circuits}}{6}{figure.caption.8}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Full push-pull amplifier circuit}}{6}{figure.caption.9}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Software design overview block diagram}}{8}{figure.caption.10}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.22)  15 SEP 2025 18:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.22)  13 OCT 2025 21:34
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -338,27 +338,314 @@ Loading module `patch' ...
 Loading module `definitions' ...
 Loading module `upgrade' ...
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/glossaries/base/glossaries.sty
-Package: glossaries 2024/11/01 v4.55 (NLCT)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count326
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen178
+\Hy@linkcounter=\count327
+\Hy@pagecounter=\count328
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count329
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count330
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen179
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count331
+\Field@Width=\dimen180
+\Fld@charsize=\dimen181
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count332
+\c@Item=\count333
+\c@Hfootnote=\count334
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count335
+\c@bookmark@seq@number=\count336
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip73
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2025/02/12 v3.5.1 Yet another Pygments shim for LaTeX
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2025/02/09 v1.11.0 fvextra - extensions and patches for fancyv
+rb
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count337
+\FV@InFile=\read2
+\FV@TabBox=\box67
+\c@FancyVerbLine=\count338
+\FV@StepNumber=\count339
+\FV@OutFile=\write3
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2025/01/29 line numbers on paragraphs v5.4
+\linenopenalty=\count340
+\output=\toks27
+\linenoprevgraf=\count341
+\linenumbersep=\dimen182
+\linenumberwidth=\dimen183
+\c@linenumber=\count342
+\c@pagewiselinenumber=\count343
+\c@LN@truepage=\count344
+\c@internallinenumber=\count345
+\c@internallinenumbers=\count346
+\quotelinenumbersep=\dimen184
+\bframerule=\dimen185
+\bframesep=\dimen186
+\bframebox=\box68
+\@LN@amsmath@ams@eqpen=\count347
+LaTeX Info: Redefining \\ on input line 3187.
+)
+\c@FancyVerbWriteLine=\count348
+\c@FancyVerbBufferLine=\count349
+\c@FV@TrueTabGroupLevel=\count350
+\c@FV@TrueTabCounter=\count351
+\FV@TabBox@Group=\box69
+\FV@bgcolorstructbox=\box70
+\FV@TmpLength=\skip74
+\c@FV@HighlightLinesStart=\count352
+\c@FV@HighlightLinesStop=\count353
+\FV@LoopCount=\count354
+\FV@NCharsBox=\box71
+\FV@BreakIndent=\dimen187
+\FV@BreakIndentNChars=\count355
+\FV@BreakSymbolSepLeft=\dimen188
+\FV@BreakSymbolSepLeftNChars=\count356
+\FV@BreakSymbolSepRight=\dimen189
+\FV@BreakSymbolSepRightNChars=\count357
+\FV@BreakSymbolIndentLeft=\dimen190
+\FV@BreakSymbolIndentLeftNChars=\count358
+\FV@BreakSymbolIndentRight=\dimen191
+\FV@BreakSymbolIndentRightNChars=\count359
+\c@FancyVerbLineBreakLast=\count360
+\FV@LineBox=\box72
+\FV@LineIndentBox=\box73
+\c@FV@BreakBufferDepth=\count361
+\FV@LineWidth=\dimen192
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/latex2pydata/latex2pydata.sty
+Package: latex2pydata 2024/11/17 v0.4.0 latex2pydata - write data to file in Py
+thon literal format
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex
+\pgfkeys@tmptoks=\toks30
+)))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks31
+\pgfopts@list@add@b@toks=\toks32
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count362
+\float@exts=\toks33
+\float@box=\box74
+\@float@everytoks=\toks34
+\@floatcapt=\box75
+)
+\c@minted@FancyVerbLineTemp=\count363
+\@float@every@listing=\toks35
+\c@listing=\count364
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip75
+\f@nch@offset@elh=\skip76
+\f@nch@offset@erh=\skip77
+\f@nch@offset@olh=\skip78
+\f@nch@offset@orh=\skip79
+\f@nch@offset@elf=\skip80
+\f@nch@offset@erf=\skip81
+\f@nch@offset@olf=\skip82
+\f@nch@offset@orf=\skip83
+\f@nch@height=\skip84
+\f@nch@footalignment=\skip85
+\f@nch@widthL=\skip86
+\f@nch@widthC=\skip87
+\f@nch@widthR=\skip88
+\@temptokenb=\toks36
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen193
+\captionmargin=\dimen194
+\caption@leftmargin=\dimen195
+\caption@rightmargin=\dimen196
+\caption@width=\dimen197
+\caption@indent=\dimen198
+\caption@parindent=\dimen199
+\caption@hangindent=\dimen256
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count365
+\c@continuedfloat=\count366
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2025/01/30 v0.6e Insert pages of external PDF documents (AM)
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
+(/usr/local/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen257
+\ESO@tempdimb=\dimen258
+)
+\AM@pagewidth=\dimen259
+\AM@pageheight=\dimen260
+\AM@fboxrule=\dimen261
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2025/01/30 v0.6e Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count367
+\AM@pagebox=\box76
+\AM@global@opts=\toks37
+\AM@pagecnt=\count368
+\AM@toc@title=\toks38
+\AM@lof@heading=\toks39
+\c@AM@survey=\count369
+\AM@templatesizebox=\box77
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2024/11/01 v4.55 (NLCT)
+
 (/usr/local/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks27
-\XKV@tempa@toks=\toks28
+\XKV@toks=\toks40
+\XKV@tempa@toks=\toks41
 )
-\XKV@depth=\count326
+\XKV@depth=\count370
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
-\@glsmfirst=\toks29
-\@glsmrest=\toks30
+\@glsmfirst=\toks42
+\@glsmrest=\toks43
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
@@ -368,7 +655,7 @@ Package: datatool-base 2019/09/27 v2.32 (NLCT)
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count327
+\c@su@anzahl=\count371
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
@@ -379,19 +666,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/local/texlive/2024/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count328
+\actioncount=\count372
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count329
-\FP@xia=\count330
-\FP@xib=\count331
-\FP@xfa=\count332
-\FP@xfb=\count333
-\FP@rega=\count334
-\FP@regb=\count335
-\FP@regs=\count336
-\FP@times=\count337
+\FP@xs=\count373
+\FP@xia=\count374
+\FP@xib=\count375
+\FP@xfa=\count376
+\FP@xfb=\count377
+\FP@rega=\count378
+\FP@regb=\count379
+\FP@regs=\count380
+\FP@times=\count381
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -410,7 +697,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count338
+\FPseed=\count382
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -421,23 +708,23 @@ Package: fp-upn 1996/10/21
 (/usr/local/texlive/2024/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks31
-\@dtl@tmpcount=\count339
-\dtl@tmplength=\skip73
-\dtl@sortresult=\count340
-\@dtl@numgrpsepcount=\count341
-\@dtl@datatype=\count342
-\dtl@codeA=\count343
-\dtl@codeB=\count344
-\@dtl@foreach@level=\count345
+\@dtl@toks=\toks44
+\@dtl@tmpcount=\count383
+\dtl@tmplength=\skip89
+\dtl@sortresult=\count384
+\@dtl@numgrpsepcount=\count385
+\@dtl@datatype=\count386
+\dtl@codeA=\count387
+\dtl@codeB=\count388
+\@dtl@foreach@level=\count389
 )
-\gls@level=\count346
-\@gls@tmpb=\toks32
-\gls@tmplen=\skip74
-\glskeylisttok=\toks33
-\glslabeltok=\toks34
-\glsshorttok=\toks35
-\glslongtok=\toks36
+\gls@level=\count390
+\@gls@tmpb=\toks45
+\gls@tmplen=\skip90
+\glskeylisttok=\toks46
+\glslabeltok=\toks47
+\glsshorttok=\toks48
+\glslongtok=\toks49
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
 av.sty
@@ -446,85 +733,89 @@ Package: glossary-hypernav 2024/11/01 v4.55 (NLCT)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
 ty
 Package: glossary-list 2024/11/01 v4.55 (NLCT)
-\glslistdottedwidth=\skip75
+\glslistdottedwidth=\skip91
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
 ty
 Package: glossary-long 2024/11/01 v4.55 (NLCT)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
-\LTleft=\skip76
-\LTright=\skip77
-\LTpre=\skip78
-\LTpost=\skip79
-\LTchunksize=\count347
-\LTcapwidth=\dimen178
-\LT@head=\box67
-\LT@firsthead=\box68
-\LT@foot=\box69
-\LT@lastfoot=\box70
-\LT@gbox=\box71
-\LT@cols=\count348
-\LT@rows=\count349
-\c@LT@tables=\count350
-\c@LT@chunks=\count351
-\LT@p@ftn=\toks37
+\LTleft=\skip92
+\LTright=\skip93
+\LTpre=\skip94
+\LTpost=\skip95
+\LTchunksize=\count391
+\LTcapwidth=\dimen262
+\LT@head=\box78
+\LT@firsthead=\box79
+\LT@foot=\box80
+\LT@lastfoot=\box81
+\LT@gbox=\box82
+\LT@cols=\count392
+\LT@rows=\count393
+\c@LT@tables=\count394
+\c@LT@chunks=\count395
+\LT@p@ftn=\toks50
 )
-\glsdescwidth=\skip80
-\glspagelistwidth=\skip81
+\glsdescwidth=\skip96
+\glspagelistwidth=\skip97
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/glossaries/styles/glossary-super.
 sty
 Package: glossary-super 2024/11/01 v4.55 (NLCT)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2024/07/20 v4.2c the supertabular environment
-\c@tracingst=\count352
-\ST@wd=\dimen179
-\ST@rightskip=\skip82
-\ST@leftskip=\skip83
-\ST@parfillskip=\skip84
-\ST@pageleft=\dimen180
-\ST@headht=\dimen181
-\ST@tailht=\dimen182
-\ST@pagesofar=\dimen183
-\ST@pboxht=\dimen184
-\ST@rowht=\dimen185
-\ST@prevht=\dimen186
-\ST@toadd=\dimen187
-\ST@dimen=\dimen188
-\ST@pbox=\box72
+\c@tracingst=\count396
+\ST@wd=\dimen263
+\ST@rightskip=\skip98
+\ST@leftskip=\skip99
+\ST@parfillskip=\skip100
+\ST@pageleft=\dimen264
+\ST@headht=\dimen265
+\ST@tailht=\dimen266
+\ST@pagesofar=\dimen267
+\ST@pboxht=\dimen268
+\ST@rowht=\dimen269
+\ST@prevht=\dimen270
+\ST@toadd=\dimen271
+\ST@dimen=\dimen272
+\ST@pbox=\box83
 ))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
 ty
 Package: glossary-tree 2024/11/01 v4.55 (NLCT)
-\glstreeindent=\skip85
+\glstreeindent=\skip101
 ))
-\c@g@acro@ny@int=\count353
-\c@g@acro@cpu@int=\count354
-\c@g@acro@un@int=\count355
-\c@g@acro@lcd@int=\count356
-\c@g@acro@angelsperarea@int=\count357
-\c@g@acro@numofangels@int=\count358
-\c@g@acro@areaofneedle@int=\count359
+\c@g@acro@ny@int=\count397
+\c@g@acro@cpu@int=\count398
+\c@g@acro@un@int=\count399
+\c@g@acro@lcd@int=\count400
+\c@g@acro@angelsperarea@int=\count401
+\c@g@acro@numofangels@int=\count402
+\c@g@acro@areaofneedle@int=\count403
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 123.
+h' as default language. on input line 130.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -561,21 +852,21 @@ LaTeX Font Info:    ... okay on input line 123.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Package chemgreek Info: Activating mapping `default' on line 123.
+Package chemgreek Info: Activating mapping `default' on line 130.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count360
-\scratchdimen=\dimen189
-\scratchbox=\box73
-\nofMPsegments=\count361
-\nofMParguments=\count362
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count363
-\MPscratchDim=\dimen190
-\MPnumerator=\count364
-\makeMPintoPDFobject=\count365
-\everyMPtoPDFconversion=\toks39
+\scratchcounter=\count404
+\scratchdimen=\dimen273
+\scratchbox=\box84
+\nofMPsegments=\count405
+\nofMParguments=\count406
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count407
+\MPscratchDim=\dimen274
+\MPnumerator=\count408
+\makeMPintoPDFobject=\count409
+\everyMPtoPDFconversion=\toks52
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -591,12 +882,30 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 123.
-\c@lstlisting=\count366
-<SU_logo_RGB-01.png, id=1, 111.0549pt x 154.176pt>
+or `english'. on input line 130.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+\c@lstlisting=\count410
+Package hyperref Info: Link coloring OFF on input line 130.
+ (./main.out)
+(./main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+Package caption Info: End \AtBeginDocument code.
+<SU_logo_RGB-01.png, id=104, 111.0549pt x 154.176pt>
 File: SU_logo_RGB-01.png Graphic file (type png)
 <use SU_logo_RGB-01.png>
-Package pdftex.def Info: SU_logo_RGB-01.png  used on input line 128.
+Package pdftex.def Info: SU_logo_RGB-01.png  used on input line 135.
 (pdftex.def)             Requested size: 166.58191pt x 231.2634pt.
 
 
@@ -604,57 +913,101 @@ Package pdftex.def Info: SU_logo_RGB-01.png  used on input line 128.
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./SU_lo
 go_RGB-01.png>]
-<figures/signature2.png, id=13, 821.0675pt x 198.7425pt>
+<figures/signature2.png, id=116, 821.0675pt x 198.7425pt>
 File: figures/signature2.png Graphic file (type png)
 <use figures/signature2.png>
-Package pdftex.def Info: figures/signature2.png  used on input line 174.
+Package pdftex.def Info: figures/signature2.png  used on input line 181.
 (pdftex.def)             Requested size: 120.92421pt x 29.26726pt.
 
 
-[1 <./figures/signature2.png>]
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.190 	\newpage
+                [1 <./figures/signature2.png>]
 
 [2] (./main.toc)
-\tf@toc=\write3
-\openout3 = `main.toc'.
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
  (./main.lof)
-\tf@lof=\write4
-\openout4 = `main.lof'.
+\tf@lof=\write6
+\openout6 = `main.lof'.
 
  (./main.lot)
-\tf@lot=\write5
-\openout5 = `main.lot'.
+\tf@lot=\write7
+\openout7 = `main.lot'.
 
 
 
 [3]
-<placeholder.jpg, id=27, 351.3125pt x 193.72375pt>
-File: placeholder.jpg Graphic file (type jpg)
-<use placeholder.jpg>
-Package pdftex.def Info: placeholder.jpg  used on input line 224.
-(pdftex.def)             Requested size: 314.39998pt x 173.38315pt.
+
+LaTeX Warning: Reference `fig:place' on page 4 undefined on input line 227.
 
 
-[4 <./placeholder.jpg>]
 
-[5]
+[4]
+<figures/hardware/hardware-design-overview-block-diagram.drawio.png, id=181, 87
+4.26625pt x 537.00626pt>
+File: figures/hardware/hardware-design-overview-block-diagram.drawio.png Graphi
+c file (type png)
+<use figures/hardware/hardware-design-overview-block-diagram.drawio.png>
+Package pdftex.def Info: figures/hardware/hardware-design-overview-block-diagra
+m.drawio.png  used on input line 244.
+(pdftex.def)             Requested size: 386.95894pt x 237.68466pt.
+<figures/hardware/schematics/signal-gain-offset-op-amp-circuits.png, id=182, 13
+06.12968pt x 545.78906pt>
+File: figures/hardware/schematics/signal-gain-offset-op-amp-circuits.png Graphi
+c file (type png)
+<use figures/hardware/schematics/signal-gain-offset-op-amp-circuits.png>
+Package pdftex.def Info: figures/hardware/schematics/signal-gain-offset-op-amp-
+circuits.png  used on input line 273.
+(pdftex.def)             Requested size: 435.32419pt x 181.90147pt.
 
-[6]
+
+[5 <./figures/hardware/hardware-design-overview-block-diagram.drawio.png>]
+<figures/hardware/schematics/amplifier-circuit.png, id=188, 746.79pt x 521.6990
+7pt>
+File: figures/hardware/schematics/amplifier-circuit.png Graphic file (type png)
+
+<use figures/hardware/schematics/amplifier-circuit.png>
+Package pdftex.def Info: figures/hardware/schematics/amplifier-circuit.png  use
+d on input line 289.
+(pdftex.def)             Requested size: 435.32419pt x 304.11407pt.
+
+
+[6 <./figures/hardware/schematics/signal-gain-offset-op-amp-circuits.png (PNG c
+opy)> <./figures/hardware/schematics/amplifier-circuit.png (PNG copy)>]
 
 [7]
+Underfull \hbox (badness 10000) in paragraph at lines 326--331
 
-[8] (./main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
-[]\OT1/cmr/m/n/10.95 (2023, Oct.) Ieee ref-er-ence guide. [On-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
-\OT1/cmr/m/n/10.95 line]. Avail-able: https://journals.ieeeauthorcenter.ieee.or
-g/wp-
+Underfull \hbox (badness 10000) in paragraph at lines 326--331
+
  []
 
-)
+<figures/software/software-design-overview-block-diagram.png, id=198, 683.55376
+pt x 522.95375pt>
+File: figures/software/software-design-overview-block-diagram.png Graphic file 
+(type png)
+<use figures/software/software-design-overview-block-diagram.png>
+Package pdftex.def Info: figures/software/software-design-overview-block-diagra
+m.png  used on input line 337.
+(pdftex.def)             Requested size: 362.77263pt x 277.54718pt.
+
+
+[8 <./figures/software/software-design-overview-block-diagram.png>]
+
+[9]
+
+[10]
+
+[11] (./main.bbl)
 
 Package acro Warning: Empty acronym list. If you have used acronyms then
 (acro)                re-compile to get the list filled. Otherwise remove
@@ -662,36 +1015,49 @@ Package acro Warning: Empty acronym list. If you have used acronyms then
 
 
 
-[9
+[12
 
-] (./main.aux)
+]
+runsystem(latexminted cleantemp  --timestamp 20251013213434 FAD58DE7366495DB465
+0CFEFAC2FCD61)...executed.
+
+ (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: F852A7D7EB9F95F4994D30CCE0E35E6B;4649
+(rerunfilecheck)             After:  3CBB5ECD71933A1A1DDABA68F8E747C1;4710.
  ) 
 Here is how much of TeX's memory you used:
- 16976 strings out of 475129
- 383756 string characters out of 5764574
- 801571 words of memory out of 5000000
- 39789 multiletter control sequences out of 15000+600000
- 568687 words of font info for 69 fonts, out of 8000000 for 9000
+ 30072 strings out of 475129
+ 650300 string characters out of 5764574
+ 1178109 words of memory out of 5000000
+ 52664 multiletter control sequences out of 15000+600000
+ 568996 words of font info for 70 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 94i,12n,93p,2350b,805s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,12n,93p,2360b,1166s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
-al/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (10 pages, 229408 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
+/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (13 pages, 332912 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 275 PDF objects out of 1000 (max. 8388607)
+ 233 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -34,9 +34,16 @@
 \usepackage{listings} % To typeset source code
 \usepackage{pdflscape} % Landscape pages
 \usepackage{acro} %To create acronyms lists
+\usepackage{hyperref} % Clickable links
+\usepackage{minted} % Syntax highlighting for code
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{caption} 
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{pdfpages}
 
 \usepackage[acronym]{glossaries}
-
 \geometry{
 a4paper,
 total={170mm,257mm},
@@ -218,31 +225,7 @@ Take great care to reference sources when ideas from publications, textbooks, in
 %----------------------------------------------------------------------------------------
 \section{System description}\label{sec:desc}
 Here you will describe your system. Be sure to include a system diagram, and reference it, for instance, as: The system diagram is shown in Figure~\ref{fig:place}. An external regulated power supply provides a single supply voltage of +\SI{30}{\volt} to the system. The output to the load is from a BNC socket\ldots
-
-\begin{figure}[ht]
-    \begin{center}
-        \includegraphics[width=0.65\textwidth]{placeholder} % Include the image placeholder.png
-        \caption{Your figure caption.}
-        \label{fig:place}
-    \end{center}
-\end{figure}
-
-An example table is shown in Table~\ref{tab:channel}.
-\begin{table}[ht]
-    \begin{center}
-        \caption{Your table caption}
-        \begin{tabular}{ l l }
-            \hline
-            Channel & Frequency range\\
-            \hline
-            Lowpass & \SI{0}{\hertz} - \SI{100}{\hertz}\\
-            Bandpass & \SI{180}{\hertz} - \SI{3}{\kilo\hertz}\\
-            Highpass & \SI{2.8}{\kilo\hertz} - $\infty$\\
-            \hline
-        \end{tabular}
-        \label{tab:channel}
-    \end{center}
-\end{table}
+dq
 
 %----------------------------------------------------------------------------------------
 %	SECTION 3
@@ -251,14 +234,19 @@ An example table is shown in Table~\ref{tab:channel}.
 \section{Hardware design and implementation}
 Describe hardware design and verification with SPICE simulation in this section. When equations are used, these must be place (and numbered) as follows:
 
-\begin{equation}
-a_t \in \{P,N\}
-\end{equation}
-
-All variables must be explicitly defined in the text, usually directly after an equation.
-
 %----------------------------------------------------------------------------------------
 \subsection{Hardware block diagram and description of interaction}
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{0.8\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{figures/hardware/hardware-design-overview-block-diagram.drawio.png}
+		\caption{Hardware design overview block diagram}
+		\label{fig:Hardware design overview block diagram}\textsf{}
+	\end{minipage}
+\end{figure}
+
 
 Briefly describe the subsystems, and how each is connected to other subsystems in the full system.
 
@@ -278,17 +266,32 @@ Describe the triangle wave generator design, circuit diagram, frequency adjustme
 Describe the sine wave generator design, circuit diagram, frequency adjustment, frequency range selection and any measures taken to guarantee a very low THD.
 
 %----------------------------------------------------------------------------------------
-\subsection{Summing and signal selection}
+\subsection{Summing, signal selection and Level adjustment}
 
-Describe the design and circuit diagram of the signal selection switch, pathways and gain matching resistors.
-
-%----------------------------------------------------------------------------------------
-\subsection{Level adjustment}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{figures/hardware/schematics/signal-gain-offset-op-amp-circuits.png}
+		\caption{Signal selection, gain and offset op-amp circuits}
+		\label{fig:Signal selection, gain and offset op-amp circuits}
+	\end{center}
+\end{figure}
 
 Describe the design and circuit diagram of level adjustment functionality.
 
+Describe the design and circuit diagram of the signal selection switch, pathways and gain matching resistors.
+
+
 %----------------------------------------------------------------------------------------
-\subsection{Amplification}
+\subsection{Full push-pull Amplifier}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{figures/hardware/schematics/amplifier-circuit.png}
+		\caption{Full push-pull amplifier circuit}
+		\label{fig:full-push-pull-amplifier-circuit}
+	\end{center}
+\end{figure}
+
 
 Describe the design and circuit diagram of the amplification stage to meet the signal amplitude adjustment requirements.
 
@@ -320,10 +323,23 @@ Discuss top-level software design and implementation, using design tools, like f
 %----------------------------------------------------------------------------------------
 \subsection{Programming language}
 
-Discuss the selected programming language, the motivation for this selection, and the advantages and disadvantages of the selected programming language.
+Python was chosen as the language of choice for this  project for its vast library support, simple syntax and the fact that modern LLMs are able to understand and write python very well with few mistakes.  The draw backs of Python are that it is an interpreted language requiring a runtime making the final binary very large for a simple program. 
+\newline \newline
+mention pyinstaller
+ \newline \newline
+Discuss the selected programming language, the motivation for this selection, and the advantages and disadvantages of the selected programming language. 
 
 %----------------------------------------------------------------------------------------
 \subsection{Software block diagram and description of interaction}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{figures/software/software-design-overview-block-diagram.png}
+		\caption{Software design overview block diagram}
+		\label{fig:Software design overview block diagram}
+	\end{center}
+\end{figure}
+
 
 Describe the code functionality by block diagram.
 
