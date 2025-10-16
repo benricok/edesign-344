@@ -3,24 +3,24 @@
 \contentsline {section}{\numberline {2}System description}{4}{section.2}%
 \contentsline {section}{\numberline {3}Hardware design and implementation}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Hardware block diagram and description of interaction}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Square wave generator}{5}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Triangle wave generator}{5}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Sine wave generator}{5}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Summing, signal selection and Level adjustment}{6}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Full push-pull Amplifier}{6}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Voltage regulation, virtual ground and output drive capability}{7}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}Other}{7}{subsection.3.8}%
-\contentsline {subsection}{\numberline {3.9}Construction}{7}{subsection.3.9}%
-\contentsline {section}{\numberline {4}Software design and implementation}{8}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Programming language}{8}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Software block diagram and description of interaction}{8}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Use of AI tools}{8}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Data read-in and calibration}{8}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Software functions}{9}{subsection.4.5}%
-\contentsline {section}{\numberline {5}Measurements and Results}{10}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Square, triangle and sine waves}{10}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Duty cycle and skew}{10}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Sine wave total harmonic distortion}{10}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Level adjust}{10}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Other}{10}{subsection.5.5}%
-\contentsline {section}{\numberline {6}Conclusions}{11}{section.6}%
+\contentsline {subsection}{\numberline {3.2}Square and Triangle wave generator}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Sine wave generator}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Summing, signal selection and Level adjustment}{7}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Frequency range selection}{7}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Full push-pull Amplifier}{8}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Voltage regulation, virtual ground and output drive capability}{8}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Other}{8}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Construction}{8}{subsection.3.9}%
+\contentsline {section}{\numberline {4}Software design and implementation}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Programming language}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Software block diagram and description of interaction}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Use of AI tools}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Data read-in and calibration}{9}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Software functions}{10}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Measurements and Results}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Square, triangle and sine waves}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Duty cycle and skew}{11}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Sine wave total harmonic distortion}{11}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Level adjust}{11}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Other}{11}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Conclusions}{12}{section.6}%

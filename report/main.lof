@@ -1,5 +1,7 @@
 \acswitchoff 
 \contentsline {figure}{\numberline {1}{\ignorespaces Hardware design overview block diagram}}{5}{figure.caption.7}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Signal selection, gain and offset op-amp circuits}}{6}{figure.caption.8}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Full push-pull amplifier circuit}}{6}{figure.caption.9}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Software design overview block diagram}}{8}{figure.caption.10}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Wien bridge circuit (Sine Wave)}}{6}{figure.caption.8}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Signal selection, gain and offset op-amp circuits}}{7}{figure.caption.9}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Frequency binning circuit}}{7}{figure.caption.10}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Full push-pull amplifier circuit}}{8}{figure.caption.11}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Software design overview block diagram}}{9}{figure.caption.12}%

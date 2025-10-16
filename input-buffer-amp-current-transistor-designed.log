@@ -1,13 +1,16 @@
 LTspice 24.1.7 for Windows
 Circuit: C:\users\benrico\Documents\edesign-344\input-buffer-amp-current-transistor-designed.net
-Start Time: Fri Oct  3 14:03:53 2025
+Start Time: Thu Oct 16 01:11:16 2025
 solver = Normal
 Maximum thread count: 12
 tnom = 27
-temp = 30
+temp = 25
 method = trap
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 6.259 seconds.
+.step temp=25°
+.step temp=75°
+.step temp=125°
+Total elapsed time: 5.631 seconds.
 
 Files loaded:
 C:\users\benrico\Documents\edesign-344\input-buffer-amp-current-transistor-designed.net

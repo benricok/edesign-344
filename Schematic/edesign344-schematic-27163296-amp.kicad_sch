@@ -1524,8 +1524,8 @@
 		(uuid 7595edee-a3d7-40ae-926f-1f989d1a96eb)
 	)
 	(rectangle
-		(start 99.06 16.51)
-		(end 203.2 97.79)
+		(start 99.06 20.32)
+		(end 203.2 92.71)
 		(stroke
 			(width 0)
 			(type default)
@@ -1537,7 +1537,7 @@
 	)
 	(text "Amplifier Stage"
 		(exclude_from_sim no)
-		(at 107.442 18.796 0)
+		(at 107.696 22.352 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2876,7 +2876,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "23ad7d8c-c965-4f7a-8076-6715d45140d2")
 		(property "Reference" "#PWR08"
 			(at 163.83 95.25 0)
@@ -2888,7 +2887,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 93.98 0)
+			(at 168.148 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3078,7 +3077,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "32e7189b-f6c7-45a4-adb8-bb6facd249b7")
 		(property "Reference" "#PWR07"
 			(at 163.83 29.21 0)
@@ -3090,7 +3088,7 @@
 			)
 		)
 		(property "Value" "+30V"
-			(at 163.83 20.32 0)
+			(at 167.386 22.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)

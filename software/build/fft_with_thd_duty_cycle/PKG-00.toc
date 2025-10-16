@@ -1,0 +1,80 @@
+('C:\\Users\\Benrico Krog\\Documents\\E-Design '
+ '344\\software\\build\\fft_with_thd_duty_cycle\\fft_with_thd_duty_cycle.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\Benrico Krog\\Documents\\E-Design '
+   '344\\software\\build\\fft_with_thd_duty_cycle\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\Benrico Krog\\Documents\\E-Design '
+   '344\\software\\build\\fft_with_thd_duty_cycle\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\Benrico Krog\\Documents\\E-Design '
+   '344\\software\\build\\fft_with_thd_duty_cycle\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\Benrico Krog\\Documents\\E-Design '
+   '344\\software\\build\\fft_with_thd_duty_cycle\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\Benrico Krog\\Documents\\E-Design '
+   '344\\software\\build\\fft_with_thd_duty_cycle\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\Benrico Krog\\Documents\\E-Design '
+   '344\\software\\build\\fft_with_thd_duty_cycle\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\Benrico '
+   'Krog\\.platformio\\penv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\Benrico '
+   'Krog\\.platformio\\penv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\Benrico '
+   'Krog\\.platformio\\penv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\Benrico '
+   'Krog\\.platformio\\penv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_mplconfig',
+   'C:\\Users\\Benrico '
+   'Krog\\.platformio\\penv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_mplconfig.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Users\\Benrico '
+   'Krog\\.platformio\\penv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Users\\Benrico '
+   'Krog\\.platformio\\penv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyqt5',
+   'C:\\Users\\Benrico '
+   'Krog\\.platformio\\penv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt5.py',
+   'PYSOURCE'),
+  ('fft_with_thd_duty_cycle',
+   'C:\\Users\\Benrico Krog\\Documents\\E-Design '
+   '344\\software\\fft_with_thd_duty_cycle.py',
+   'PYSOURCE')],
+ 'python311.dll',
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

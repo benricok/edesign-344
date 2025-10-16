@@ -11,43 +11,53 @@
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{4}{section.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2}System description}{4}{section.2}\protected@file@percent }
 \newlabel{sec:desc}{{2}{4}{System description}{section.2}{}}
+\citation{CAP_IND:2006}
 \@writefile{toc}{\contentsline {section}{\numberline {3}Hardware design and implementation}{5}{section.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Hardware block diagram and description of interaction}{5}{subsection.3.1}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Hardware design overview block diagram}}{5}{figure.caption.7}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \newlabel{fig:Hardware design overview block diagram}{{1}{5}{Hardware design overview block diagram}{figure.caption.7}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Square wave generator}{5}{subsection.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Triangle wave generator}{5}{subsection.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Sine wave generator}{5}{subsection.3.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Summing, signal selection and Level adjustment}{6}{subsection.3.5}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Signal selection, gain and offset op-amp circuits}}{6}{figure.caption.8}\protected@file@percent }
-\newlabel{fig:Signal selection, gain and offset op-amp circuits}{{2}{6}{Signal selection, gain and offset op-amp circuits}{figure.caption.8}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Full push-pull Amplifier}{6}{subsection.3.6}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Full push-pull amplifier circuit}}{6}{figure.caption.9}\protected@file@percent }
-\newlabel{fig:full-push-pull-amplifier-circuit}{{3}{6}{Full push-pull amplifier circuit}{figure.caption.9}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Voltage regulation, virtual ground and output drive capability}{7}{subsection.3.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.8}Other}{7}{subsection.3.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.9}Construction}{7}{subsection.3.9}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4}Software design and implementation}{8}{section.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Programming language}{8}{subsection.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Software block diagram and description of interaction}{8}{subsection.4.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Software design overview block diagram}}{8}{figure.caption.10}\protected@file@percent }
-\newlabel{fig:Software design overview block diagram}{{4}{8}{Software design overview block diagram}{figure.caption.10}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Use of AI tools}{8}{subsection.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Data read-in and calibration}{8}{subsection.4.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Software functions}{9}{subsection.4.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5}Measurements and Results}{10}{section.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Square, triangle and sine waves}{10}{subsection.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Duty cycle and skew}{10}{subsection.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Sine wave total harmonic distortion}{10}{subsection.5.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Level adjust}{10}{subsection.5.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Other}{10}{subsection.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Square and Triangle wave generator}{5}{subsection.3.2}\protected@file@percent }
+\newlabel{eq:Capacitor charge}{{1}{5}{Square and Triangle wave generator}{equation.1}{}}
+\newlabel{eq:Capacitor charge time}{{2}{5}{Square and Triangle wave generator}{equation.2}{}}
+\newlabel{eq:Square and triangle period}{{3}{5}{Square and Triangle wave generator}{equation.3}{}}
+\newlabel{eq:Square and triangle frequency}{{4}{5}{Square and Triangle wave generator}{equation.4}{}}
+\newlabel{eq:Square and triangle duty}{{5}{6}{Square and Triangle wave generator}{equation.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Sine wave generator}{6}{subsection.3.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Wien bridge circuit (Sine Wave)}}{6}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:Wien bridge circuit}{{2}{6}{Wien bridge circuit (Sine Wave)}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Summing, signal selection and Level adjustment}{7}{subsection.3.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Signal selection, gain and offset op-amp circuits}}{7}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:Signal selection, gain and offset op-amp circuits}{{3}{7}{Signal selection, gain and offset op-amp circuits}{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Frequency range selection}{7}{subsection.3.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Frequency binning circuit}}{7}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:Frequency binning circuit}{{4}{7}{Frequency binning circuit}{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Full push-pull Amplifier}{8}{subsection.3.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Full push-pull amplifier circuit}}{8}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:full-push-pull-amplifier-circuit}{{5}{8}{Full push-pull amplifier circuit}{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Voltage regulation, virtual ground and output drive capability}{8}{subsection.3.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.8}Other}{8}{subsection.3.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.9}Construction}{8}{subsection.3.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Software design and implementation}{9}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Programming language}{9}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Software block diagram and description of interaction}{9}{subsection.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Software design overview block diagram}}{9}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:Software design overview block diagram}{{6}{9}{Software design overview block diagram}{figure.caption.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Use of AI tools}{9}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Data read-in and calibration}{9}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Software functions}{10}{subsection.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Measurements and Results}{11}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Square, triangle and sine waves}{11}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Duty cycle and skew}{11}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Sine wave total harmonic distortion}{11}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Level adjust}{11}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Other}{11}{subsection.5.5}\protected@file@percent }
 \citation{IEEErefguide:2023}
 \citation{lm555:2014}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusions}{11}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusions}{12}{section.6}\protected@file@percent }
 \bibstyle{IEEEtran}
 \bibdata{IEEEabrv,references}
-\bibcite{IEEErefguide:2023}{1}
+\bibcite{CAP_IND:2006}{1}
 \bibcite{lm555:2014}{2}
 \ACRO{total-barriers}{1}
 \ACRO{usage}{ny=={0}}
@@ -58,4 +68,4 @@
 \ACRO{usage}{numofangels=={0}}
 \ACRO{usage}{areaofneedle=={0}}
 \xdef \mintedoldcachechecksum{\detokenize{\minted@cachechecksum }}
-\gdef \@abspage@last{13}
+\gdef \@abspage@last{14}

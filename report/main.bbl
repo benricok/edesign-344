@@ -21,10 +21,11 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{IEEErefguide:2023}
+\bibitem{CAP_IND:2006}
 \BIBentryALTinterwordspacing
-(2023, Oct.) Ieee reference guide. [Online]. Available:
-  \url{https://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE\_Reference\_Guide.pdf}
+(2006) Introduction to electronic signals and measurement - capacitor and
+  inductors. [Online]. Available:
+  \url{https://ocw.mit.edu/courses/6-071j-introduction-to-electronics-signals-and-measurement-spring-2006/eac1995aca830cfd0de6bab60a8abf10_capactr_inductr.pdf}
 \BIBentrySTDinterwordspacing
 
 \bibitem{lm555:2014}

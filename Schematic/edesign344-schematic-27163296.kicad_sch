@@ -4146,9 +4146,9 @@
 		)
 		(uuid "0f28a0e6-45cf-4955-bfc3-22318a6dcca5")
 	)
-	(text "SINE WAVE - Wien bridge"
+	(text "Signal selection, gain and offset op-amp circuits"
 		(exclude_from_sim no)
-		(at 30.48 17.78 0)
+		(at 41.91 17.526 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5096,7 +5096,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 50.8) (xy 80.01 48.26)
+			(xy 81.28 52.07) (xy 81.28 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5306,7 +5306,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 34.29) (xy 135.89 34.29)
+			(xy 116.84 34.29) (xy 123.19 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6326,6 +6326,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 34.29) (xy 135.89 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ce6406-afc3-456a-bdcd-417dace99ba2")
+	)
+	(wire
+		(pts
 			(xy 48.26 45.72) (xy 50.8 45.72)
 		)
 		(stroke
@@ -6906,7 +6916,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 48.26) (xy 83.82 48.26)
+			(xy 81.28 48.26) (xy 83.82 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7416,6 +7426,28 @@
 			)
 		)
 	)
+	(global_label "15V-VGND"
+		(shape input)
+		(at 81.28 52.07 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad3a5a00-13eb-4da7-9797-7eedb7b7ebab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 65.0943 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Sqr-Tri-PWR"
 		(shape input)
 		(at 35.56 154.94 180)
@@ -7748,10 +7780,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "024ddd73-5cbf-49ca-a6be-6346c8b81806")
 		(property "Reference" "SW1"
-			(at 62.865 17.78 0)
+			(at 63.5 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7759,7 +7790,7 @@
 			)
 		)
 		(property "Value" "SW_Rotary_4x3"
-			(at 62.865 20.32 0)
+			(at 62.992 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8997,7 +9028,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "68k"
 			(at 119.38 61.976 90)
 			(effects
 				(font
@@ -10826,6 +10857,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 127 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dae6d53-4a34-44c6-a360-c6a3b473664a")
+		(property "Reference" "R25"
+			(at 127 32.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 127 36.576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 36.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ebf4da6-5adb-4a87-885f-28010ed46432")
+		)
+		(pin "1"
+			(uuid "bd6fa76c-d63e-455e-880c-26bff51d8d03")
+		)
+		(instances
+			(project "edesign344-schematic-27163296"
+				(path "/231675ab-32c5-49c0-9bd3-8a612300c001"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 44.45 147.32 0)
 		(unit 1)
@@ -11324,7 +11422,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "68k"
 			(at 104.14 61.976 90)
 			(effects
 				(font
@@ -11886,7 +11984,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 84.328 55.626 0)
+			(at 91.948 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13245,8 +13343,8 @@
 				)
 			)
 		)
-		(property "Value" "R_Potentiometer"
-			(at 111.76 64.262 90)
+		(property "Value" "100k"
+			(at 112.014 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)

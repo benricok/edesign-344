@@ -251,17 +251,62 @@ Describe hardware design and verification with SPICE simulation in this section.
 Briefly describe the subsystems, and how each is connected to other subsystems in the full system.
 
 %----------------------------------------------------------------------------------------
-\subsection{Square wave generator}
+\subsection{Square and Triangle wave generator}
+
+A good way to generate a linear triangle wave is to exploit the rate of change of voltage to current relationship of a capacitor by using the well known equation rewritten in the form\cite{CAP_IND:2006}:
+\begin{equation}
+	\frac{i}{C} =\frac{dV}{dt} 
+	\label{eq:Capacitor charge}
+\end{equation}
+Where C is the capacitance of the capacitor, i is the current flowing through the capacitor and V the voltage over the capacitor. The voltage can therefore be linearly increased and decreased when applying a constant current to charge and discharge the capacitor periodically which will result in a triangle wave. The skew of the triangle can be adjusted by varying the amount of current charging and discharging asymmetrically, due to a larger current charging the capacitor faster and therefore lowering the charge time and vice-versa.  The equation for calculating the time require to charge the capacitor is:
+\begin{equation}
+	T_{charge\_time} = \frac{C\Delta{V}}{i} 
+	\label{eq:Capacitor charge time}
+\end{equation}
+
+The period and frequency of the resulting wave can thus be calculated:
+\begin{equation}
+	\begin{split}
+	T &= T_{charge\_time} + T_{discharge\_time} \\
+	   &= C\Delta{V} (\frac{1}{i_{charging}} + \frac{1}{i_{discharging}})
+	\label{eq:Square and triangle period}
+	\end{split}
+\end{equation}
+
+\begin{equation}
+	\begin{split}
+		f &= \frac{1}{T}  \\
+		  &= \frac{i_{charging}i_{discharging}}{C\Delta{V} (i_{charging} + i_{discharging})}
+		\label{eq:Square and triangle frequency}
+	\end{split}
+\end{equation}
+
+The duty cycle can be calculated as:
+\begin{equation}
+	\begin{split}
+		D_{positive} &= \frac{T_{charge\_time}}{T}  \\
+		  					   &= \frac{\frac{C\Delta{V}}{i}}{C\Delta{V} (\frac{1}{i_{charging}} + \frac{1}{i_{discharging}})} \\
+		&= \frac{i_{discharging}}{i_{charging} + i_{discharging}}
+		\label{eq:Square and triangle duty}
+	\end{split}
+\end{equation}
+
+
 
 Describe the square wave generator design, circuit diagram, frequency adjustment, pulse-width modulation adjustment, frequency range selection and any other relevant design steps (such as the use of dual pots to control frequency while keeping duty cycle constant).
-
-%----------------------------------------------------------------------------------------
-\subsection{Triangle wave generator}
 
 Describe the triangle wave generator design, circuit diagram, frequency adjustment (if different from the square wave), frequency range selection, skew adjustment and any other relevant design steps (for instance: how to keep frequency constant as skew is adjusted).
 
 %----------------------------------------------------------------------------------------
 \subsection{Sine wave generator}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{figures/hardware/schematics/wien-bridge.png}
+		\caption{Wien bridge circuit (Sine Wave)}
+		\label{fig:Wien bridge circuit}
+	\end{center}
+\end{figure}
 
 Describe the sine wave generator design, circuit diagram, frequency adjustment, frequency range selection and any measures taken to guarantee a very low THD.
 
@@ -279,6 +324,16 @@ Describe the sine wave generator design, circuit diagram, frequency adjustment, 
 Describe the design and circuit diagram of level adjustment functionality.
 
 Describe the design and circuit diagram of the signal selection switch, pathways and gain matching resistors.
+
+%----------------------------------------------------------------------------------------
+\subsection{Frequency range selection}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{figures/hardware/schematics/frequency-binning.png}
+		\caption{Frequency binning circuit}
+		\label{fig:Frequency binning circuit}
+	\end{center}
+\end{figure}
 
 
 %----------------------------------------------------------------------------------------

@@ -7294,7 +7294,7 @@
 			)
 		)
 	)
-	(global_label "Bridge-C1-A"
+	(global_label "Sine-C1-A"
 		(shape input)
 		(at 246.38 71.12 0)
 		(fields_autoplaced yes)
@@ -7306,7 +7306,7 @@
 		)
 		(uuid "7c300156-2a6c-4f79-b66e-de06aad04f31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.1257 71.12 0)
+			(at 260.13 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7316,7 +7316,7 @@
 			)
 		)
 	)
-	(global_label "Bridge-C2-A"
+	(global_label "Sine-C2-B"
 		(shape input)
 		(at 265.43 118.11 180)
 		(fields_autoplaced yes)
@@ -7328,7 +7328,7 @@
 		)
 		(uuid "7d408774-bf7d-4b5d-80de-36eaee23d758")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.6843 118.11 0)
+			(at 251.4986 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7404,7 +7404,7 @@
 			)
 		)
 	)
-	(global_label "Bridge-C1-A"
+	(global_label "Sine-C1-B"
 		(shape input)
 		(at 247.65 118.11 180)
 		(fields_autoplaced yes)
@@ -7416,7 +7416,7 @@
 		)
 		(uuid "89be6424-ce23-426a-a432-58e5031d2fcd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.9043 118.11 0)
+			(at 233.7186 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7514,7 +7514,7 @@
 			)
 		)
 	)
-	(global_label "Bridge-C2-A"
+	(global_label "Sine-C2-A"
 		(shape input)
 		(at 254 74.93 0)
 		(fields_autoplaced yes)
@@ -7526,7 +7526,7 @@
 		)
 		(uuid "ecef8a6e-54fa-4099-a1ce-18a60eab1147")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.7457 74.93 0)
+			(at 267.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)

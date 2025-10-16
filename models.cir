@@ -19,14 +19,14 @@
 +          Cjc=7.306p Mjc=.3416 Vjc=.75 Fc=.5 Cje=22.01p Mje=.377 Vje=.75
 +          Tr=46.91n Tf=411.1p Itf=.6 Vtf=1.7 Xtf=3 Rb=10
 
-* TIP41C NPN (TO220)
-.model 2TIP41C npn Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
+* TIP41C NPN (TO220) 156.7
+.model 2TIP41C npn Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=144 Ise=1.346p Ne=1.34
 +          Ikf=3.296 Nc=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
 +          Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
 +          Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10 Rb=.1
 
-* TIP42C PNP (TO220)
-.model 2TIP42C pnp Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
+* TIP42C PNP (TO220) 137.6
+.model 2TIP42C pnp Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=125 Ise=862.2f
 +          Ne=1.481 Ikf=1.642 Nc=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
 +          Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
 +          Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
@@ -53,14 +53,15 @@
 + Isc=0 Ikr=0 Rc=1 Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p Mje=.2593 Vje=.75 Tr=239.5n Tf=301.2p
 + Itf=.4 Vtf=4 Xtf=2 Rb=10
 
-
+* 300
 .model 22N3904 NPN(IS=1E-14 VAF=100
-+  Bf=300 IKF=0.4 XTB=1.5 BR=4
++  Bf=180 IKF=0.4 XTB=1.5 BR=4
 +  CJC=4E-12  CJE=8E-12 RB=20 RC=0.1 RE=0.1
 +  TR=250E-9  TF=350E-12 ITF=1 VTF=2 XTF=3)
 
+*200 
 .model 22N3906 PNP(IS=1E-14 VAF=100
-+  BF=200 IKF=0.4 XTB=1.5 BR=4
++  BF=150 IKF=0.4 XTB=1.5 BR=4
 +  CJC=4.5E-12 CJE=10E-12 RB=20 RC=0.1 RE=0.1
 +  TR=250E-9   TF=350E-12 ITF=1 VTF=2 XTF=3)
 * ********************************************
